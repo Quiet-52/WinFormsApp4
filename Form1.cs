@@ -26,16 +26,16 @@ namespace WinFormsApp4
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < 25; i++)
             {
                 int xPos;
                 if (i % 2 == 0)
                 {
-                    xPos = 10;
+                    xPos = 15;
                 }
                 else
                 {
-                    xPos = 400;
+                    xPos = 450;
                 }
                 points[i] = new Point(xPos, 10 * i);
             }
